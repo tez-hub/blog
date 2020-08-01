@@ -1,0 +1,10 @@
+
+{% extends "one/base.html" %}
+{% block content %}
+    {% for post in posts %}
+
+        <a href="#">{{post.author}}</a>
+
+    {% endfor %}
+
+{% endblock content %}
